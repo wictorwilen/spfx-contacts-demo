@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "7dc5fcdd-09ac-4cf9-be56-2963c38a5eff",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "7dc5fcdd-09ac-4cf9-be56-2963c38a5eff",
+    "group": { "default": "Under Development" },
+    "title": { "default": "WebPartEvents" },
+    "description": { "default": "WebPartEvents description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "WebPartEvents"
+    }
+  }]
+}

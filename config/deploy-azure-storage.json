@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "contacts-demo",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

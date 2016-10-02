@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "contacts-demo-client-side-solution",
+    "id": "d92a21b9-17d9-4a35-82b7-e1774b2887cb",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/contacts-demo.spapp"
+  }
+}

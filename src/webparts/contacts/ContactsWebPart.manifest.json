@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+  "id": "75f2936e-2ce4-4b77-9ff4-095d82cccd57",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "75f2936e-2ce4-4b77-9ff4-095d82cccd57",
+      "group": {
+        "default": "Demo",
+        "sv-se": "Demo"
+      },
+      "title": {
+        "default": "Contacts",
+        "sv-se": "Kontakter"
+      },
+      "description": {
+        "default": "Contacts description",
+        "sv-se": "Kontakter beskrivning"
+      },
+      "officeFabricIconFontName": "Group",
+      "properties": {
+        "title": "Contact cards",
+        "listName": "Contacts",
+        "numberOfContacts": 5,
+        "sortAscending": true,
+        "large": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+
+// Handlebar templates
+export const TemplateSmall: string = `<div class="ms-Persona ms-Persona--xs">
+  <div class="ms-Persona-imageArea">
+    <div class="ms-Persona-initials ms-Persona-initials--blue">{{initials}}</div>
+    <img class="ms-Persona-image" src="{{photoUrl}}"></div>
+  <div class="ms-Persona-presence"></div>
+  <div class="ms-Persona-details">
+    <div class="ms-Persona-primaryText">{{firstName}} {{lastName}}</div>
+  </div>
+</div>`;
+
+export const TemplateLarge: string = `<div class="ms-Persona ms-Persona--lg">
+  <div class="ms-Persona-imageArea">
+    <div class="ms-Persona-initials ms-Persona-initials--blue">{{initials}}</div>
+    <img class="ms-Persona-image" src="{{photoUrl}}"></div>
+  <div class="ms-Persona-presence"></div>
+  <div class="ms-Persona-details">
+    <div class="ms-Persona-primaryText">{{firstName}} {{lastName}}</div>
+    <div class="ms-Persona-secondaryText">{{company}}</div>
+    <div class="ms-Persona-tertiaryText">{{jobTitle}}</div>
+  </div>
+</div>`;

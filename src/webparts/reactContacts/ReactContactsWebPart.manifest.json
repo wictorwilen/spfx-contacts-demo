@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+  "id": "311fc0ae-d763-41c3-8e3c-2967c40bd3b4",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "311fc0ae-d763-41c3-8e3c-2967c40bd3b4",
+      "group": {
+        "default": "Demo"
+      },
+      "title": {
+        "default": "React Contacts"
+      },
+      "description": {
+        "default": "Contacts list built using React"
+      },
+      "officeFabricIconFontName": "Group",
+      "properties": {
+        "title": "Contact cards",
+        "listName": "Contacts",
+        "numberOfContacts": 5,
+        "sortAscending": true,
+        "large": false
+      }
+    }
+  ]
+}
